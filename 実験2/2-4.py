@@ -1,0 +1,7 @@
+x=int(input("请输入三位数:"))
+a=int(x/100)
+a1=int(x%100)
+b=int(a1/10)
+b1=int(a1%10)
+c=int(b1*100+b*10+a)
+print(c)
